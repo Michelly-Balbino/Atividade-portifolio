@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Google-fonts -->
+    <!-- ÍCONES DO BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM ÍCONES DO BOOTSTRAP -->
+    <link rel="stylesheet" href="style.css">
+    <title>NOME</title>
+</head>
+<body>
+    
+<header>
+    <div class="interface">
+        <div class="logo">
+            <a href="atividade.portifolio">
+                <img src="imagens/logo2.jpg" alt="exemplo">
+            </a>
+        </div><!--logo-->
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
+
+        <div class="btn-contato">
+            <a href="#contato">
+                <button>Contato</button>
+            </a>
+        </div><!--btn-contato-->
+    </div><!--interface-->
+</header>
+
+<main>
+    <section id="inicio" class="topo-do-site">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1>Transformando Momentos em </h1> 
+                    <h1><span>Memórias Eternas</span></h1>
+                    <p class="texto-inicio">Bem-vindo ao mundo de Tatiane, onde cada clique conta uma história. </p>
+                    <p class="texto-inicio">Com um olhar atento e sensível, ela transforma momentos fugazes em memórias duradouras, capturando a essência e a emoção de cada cena. </p>
+                    <p class="texto-inicio">Desde casamentos até sessões de fotos de modelos e cosplays, cada projeto é tratado com dedicação e paixão.</p>
+                    <div class="btn-contato">
+                    </div>
+                </div><!--txt-topo-site-->
+                <div class="img-top-site">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="imagens/carrossel1.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="imagens/carrossel2.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="imagens/carrossel3.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="imagens/carrossel4.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="imagens/carrossel5.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="imagens/carrossel6.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="imagens/carrossel7.jpg" style="width:100%">
+                        </div>
+
+                        <!-- Botões de navegação -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span> 
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                </div><!--img-top-site-->
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--topo-do-site-->
+
+    <section id="especialidades" class="especialidades">
+        <div class="interface">
+            <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+            <div class="flex">
+                <div class="especialidades-box">
+                    <i class="bi bi-camera"></i>
+                    <h3>Fotografia Digital</h3>
+                    <p>Domínio das câmeras DSLR e mirrorless, com conhecimento em configurações manuais para otimização de iluminação e exposição..</p>
+                </div><!--especialidades-box-->
+
+                <div class="especialidades-box">
+                    <i class="bi bi-images"></i>
+                    <h3>Edição de Imagens</h3>
+                    <p>Proficiência em softwares de edição como Adobe Photoshop e Lightroom para ajuste de cores, retoques e composição</p>
+                </div><!--especialidades-box-->
+
+                <div class="especialidades-box">
+                    <i class="bi bi-palette"></i>
+                    <h3>Composição e Enquadramento</h3>
+                    <p>Habilidade em criar composições harmoniosas, utilizando técnicas como regra dos terços, linhas de liderança e perspectiva.</p>
+                </div><!--especialidades-box-->
+
+                <div class="especialidades-box">
+                    <i class="bi bi-lightbulb"></i> <!-- Ícone da nova especialidade -->
+                    <h3>Iluminação</h3> <!-- Título da nova especialidade -->
+                    <p>Conhecimento básico de iluminação natural e artificial, incluindo o uso de refletores e flashes externos para melhorar a qualidade das imagens.</p> <!-- Descrição da nova especialidade -->
+                </div><!--especialidades-box-->
+                
+                <div class="especialidades-box">
+                    <i class="bi bi-emoji-sunglasses"></i> <!-- Ícone da nova especialidade -->
+                    <h3>Direção de Modelos</h3> <!-- Título da nova especialidade -->
+                    <p>Capacidade de orientar e dirigir modelos durante as sessões de fotos para obter poses naturais e expressões autênticas.</p> <!-- Descrição da nova especialidade -->
+                </div><!--especialidades-box-->
+
+                <div class="especialidades-box">
+                    <i class="bi bi-caret-down-square"></i> <!-- Ícone da nova especialidade -->
+                    <h3>Gerenciamento de Projetos</h3> <!-- Título da nova especialidade -->
+                    <p>Organização e planejamento eficiente de sessões fotográficas, desde a preparação e comunicação com clientes até a entrega final das imagens.</p> <!-- Descrição da nova especialidade -->
+                </div><!--especialidades-box-->
+                
+                
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--especialidades-->
+
+    <section id="sobre" class="sobre">
+        <div class="interface">
+            <div class="flex">
+
+                <div class="img-sobre">
+                    <img src="imagens/persona3.jpg" alt="exemplo2">
+                </div><!--img-sobre-->
+                <div class="txt-sobre">
+                    <h2>MUITO PRAZER, <span>SOU A TATI</span></h2>
+                    <p>Eu sou Tatiane, uma fotógrafa apaixonada por capturar momentos únicos e transformá-los em memórias duradouras. Apesar de já ter realizado diversos trabalhos pequenos que me permitiram aprimorar minhas habilidades e desenvolver um olhar artístico apurado, sinto-me constantemente inspirada a explorar novas técnicas e estilos, buscando sempre superar as expectativas dos meus clientes.</p>
+                    <p>Acredito que a fotografia é mais do que apenas registrar imagens – é sobre eternizar sentimentos, criar conexões e permitir que as pessoas revivam os melhores momentos de suas vidas. Meu trabalho é uma combinação de técnica apurada, criatividade e uma profunda compreensão das histórias únicas de meus clientes.</p>
+                    <p>Venha descobrir como posso transformar seus momentos especiais em memórias que serão apreciadas por gerações. Cada foto que capturo é uma página de um livro que você poderá revisitar sempre que quiser sentir novamente a alegria, a emoção e a beleza dos momentos mais preciosos da sua vida.</p>
+
+                </div><!--txt-sobre-->
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--sobre-->
+
+    <section id="projetos" class="portifolio">
+        <div class="interface">
+            <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+            <div class="flex">
+                <div class="img-port" style="background-image: url('imagens/Casamento_atualizado.jpg');">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-title">Casamento</div>
+                            <p class="overlay-description">Casamento é uma obra de arte que conta uma história de amor única, e meu maior prazer é saber que essas imagens serão guardadas e apreciadas por gerações futuras.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-port" style="background-image: url('imagens/Turismo.jpg');">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-title">Turismo</div>
+                            <p class="overlay-description">Cada viagem é uma nova história para contar e capturar em imagens que fazem você reviver cada momento inesquecível.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-port" style="background-image: url('imagens/Modelo2.jpg');">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-title">Modelo</div>
+                            <p class="overlay-description">A arte de modelar é capturar a essência da beleza e a força da expressão em cada clique, transformando poses em obras-primas visuais.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-port" style="background-image: url('imagens/Cosplay.jpg');">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-title">Cosplay</div>
+                            <p class="overlay-description">No mundo do cosplay, a fotografia traz à vida personagens icônicos, celebrando a criatividade e a paixão que transformam sonhos em realidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--portifolio-->
+
+    <section id="contato" class="contato">
+        <!-- Adicione o conteúdo da seção de contato aqui -->
+    </section><!--contato-->
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="imagens/logo2.jpg" alt="logo">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
+                    </div><!--btn-social-->
+            </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope"></i> <a href="mailto:contato@tatianefotos.com.br"> contato@tatianefotos.com.br </a></p>
+            </div><!--line-footer-->
+       </div><!--interface-->
+    </footer>
+
+</main>
+
+<script>
+    let slideIndex = 0;
+    let slideInterval;
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+    }
+
+    function plusSlides(n) {
+        clearInterval(slideInterval);
+        slideIndex += n;
+        showSlides(slideIndex);
+        slideInterval = setInterval(function() { plusSlides(1) }, 5000); // Restart the interval
+    }
+
+    function currentSlide(n) {
+        clearInterval(slideInterval);
+        slideIndex = n;
+        showSlides(slideIndex);
+        slideInterval = setInterval(function() { plusSlides(1) }, 5000); // Restart the interval
+    }
+
+    function startSlides() {
+        slideIndex = 1;
+        showSlides(slideIndex);
+        slideInterval = setInterval(function() { plusSlides(1) }, 5000); // Change image every 5 seconds
+    }
+
+    window.onload = startSlides;
+</script>
+
+</body>
+</html>
